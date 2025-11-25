@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Playwrite+DE+SAS:wght@100..400&family=Playwrite+HU:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Young+Serif&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+ 
+body{
+  font-family: 'outfit', sans-serif;
+  width: 100%;
+  padding-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+  width: 60%;  
+}
+.image-container{
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.image-container img{
+  width: 100%;
+  border-radius: 1rem;
+}
+.title{
+  margin-bottom: 1.5rem;
+}
+h1{
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+  font-size: clamp(1.5rem, 3vw, 4rem);
+}
+p{
+  font-size: 1rem;
+  font-weight: 400;
+  color: gray;
+}
+.prepare{
+  padding: 1rem 2rem;
+  background-color: hsl(330, 100%, 98%);
+  border-radius: 1rem;
+  margin-bottom: 1.5rem;
+}
+.prepare h3{
+  margin-bottom: 1.5rem;
+}
+.prepare ul li{
+  margin: 1rem 2.5rem;
+  padding-left: 1rem;
+  color: gray;
+}
+.ingredient{
+  margin-bottom: 1.5rem;
+}
+.ingredient h3{
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+}
+.ingredient ul li{
+  margin: 1rem 2.5rem;
+  padding-left: 1rem;
+  color: gray;
+}
+hr{
+  margin: 2rem 0;
+  border: 1px solid rgba(128, 128, 128, 0.2);
+}
+.instruct h3{
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+  
+}
+h3{
+  color: hsl(332, 51%, 32%)
+}
+b{
+  color: black ;
+}
+.instruct ol li{
+  margin: 1rem 2.5rem;
+  padding-left: 1rem;
+  color: gray;
+}
+.nutrition h3{
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+}
+.nutrition p{
+  margin-bottom: 1.5rem;
+}
+.grid-container{
+  display: grid;
+  grid-template-columns: 200px 200px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.2);
+  padding: 0.7rem 2rem;
+  color: gray;
+}
+.capacity{
+  color: hsl(332, 51%, 32%);
+  font-weight: 600;
+}
+
+@media screen and (max-width : 500px){
+  .container{
+    width: 90%;
+  }
+}
