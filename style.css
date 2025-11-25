@@ -73,7 +73,7 @@ hr{
   font-size: 1.5rem;
   
 }
-h3{
+h2{
   color: hsl(332, 51%, 32%)
 }
 b{
@@ -107,4 +107,5 @@ b{
   .container{
     width: 90%;
   }
+
 }
